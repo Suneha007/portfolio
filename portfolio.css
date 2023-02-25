@@ -302,7 +302,7 @@ img {
 }
 
 .heading-sec__mb-med {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 *,
@@ -518,7 +518,7 @@ projects__row-content-title {
 }
 
 .sec-pad {
-    padding: 2rem 0;
+    padding: 5rem 0;
 }
 
 .heading-sec__main::after {
@@ -546,10 +546,6 @@ heading-sec__sub--lt {
     max-width: 80rem;
     margin: auto;
     line-height: 1.6;
-}
-
-.heading-sec__mb-med {
-    margin-bottom: 3rem;
 }
 
 contact__form-container {
@@ -637,9 +633,8 @@ label {
     text-align: right;
     width: 80%;
     border-radius: 5px;
-    margin: -7rem auto 0 auto;
+    margin: 0rem auto 0 auto;
 }
-
 textarea {
     resize: none;
 }
