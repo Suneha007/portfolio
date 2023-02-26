@@ -371,7 +371,7 @@ h2 {
 
 h3 {
     display: block;
-    font-size: 1.17em;
+    font-size: 2.5em;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -426,6 +426,7 @@ a {
     letter-spacing: 1px;
     display: inline-block;
     font-weight: 700;
+    font-size: 1rem;
     border-radius: 5px;
     box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
     transition: transform .3s;
@@ -498,7 +499,7 @@ projects__row-content-title {
 }
 
 .projects__row-content-desc {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: #666;
     max-width: 60rem;
     line-height: 1.7;
@@ -582,9 +583,8 @@ contact__form-container {
     height: 50px;
     font-size: 1.6rem;
     margin-right: 16rem;
-
+    cursor: pointer;
 }
-
 
 .contact__form-label {
     color: #666;
@@ -626,7 +626,6 @@ textarea {
 
 textarea {
     writing-mode: horizontal-tb;
-    font-family: monospace;
     text-rendering: auto;
     color: fieldtext;
     letter-spacing: normal;
@@ -667,7 +666,7 @@ footer {
 .main-footer__upper {
     display: flex;
     justify-content: space-between;
-    padding: 8rem 2;
+    margin-top: 5px;
 }
 
 .main-footer__row-1 {
@@ -684,7 +683,7 @@ footer {
 }
 
 .heading-sm {
-    font-size: 2.2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -730,18 +729,23 @@ user agent stylesheet img {
     width: 40%;
     order: 1;
     max-width: 50rem;
+    padding: 50px;
+    margin-top: 42px;
 }
 
-.heading-sm {
-    font-size: 2.2rem;
+.heading-1 {
+    font-size: 1.5rem;
+    margin-top: 7rem;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
+
+
 .main-footer__short-desc {
-    margin-top: -1rem;
+    margin-top: 2rem;
     color: #eee;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     line-height: 1.5;
     height: 9rem;
 }
