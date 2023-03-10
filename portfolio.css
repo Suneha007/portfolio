@@ -1010,7 +1010,8 @@ project-details__content-title {
 /* prjects */
 
 .projects__row {
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 2rem;
 }
 
@@ -1029,10 +1030,8 @@ project-details__content-title {
 }
 
 .projects__row-img {
-    width: 690px;
-    height: 406px;
-    display: block;
-    margin-top: 5rem;
+    width: 100%;
+    height: auto;
 
 }
 
